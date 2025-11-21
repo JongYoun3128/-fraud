@@ -977,7 +977,12 @@ section:first-of-type {
     background: var(--primary-dark);
     transform: translateY(-5px);
 }
-
+.big-size {
+    display: block;
+}
+.small-size {
+    display: none;
+}
 /* 반응형 디자인 */
 @media (max-width: 768px) {
     .main-nav {
@@ -1192,6 +1197,12 @@ section:first-of-type {
     .reviews-slider {
         display: flex;
         flex-direction: column;
+    }
+    .big-size {
+        display: none;
+    }
+    .small-size {
+        display: block;
     }
 }
 
