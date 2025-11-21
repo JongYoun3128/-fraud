@@ -1189,6 +1189,10 @@ section:first-of-type {
     .stat-label {
         font-size: 0.9rem;
     }
+    .reviews-slider {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 /* 애니메이션 */

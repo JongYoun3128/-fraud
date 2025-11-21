@@ -84,20 +84,20 @@ const reviewCards = document.querySelectorAll(".review-card");
 const prevReviewBtn = document.getElementById("prevReview");
 const nextReviewBtn = document.getElementById("nextReview");
 
-function updateReviewsDisplay() {
-    if (window.innerWidth <= 768) {
-        // 모바일에서는 한 번에 하나씩
-        reviewCards.forEach((card, index) => {
-            card.style.display =
-                index === currentReviewIndex ? "block" : "none";
-        });
-    } else {
-        // 데스크톱에서는 모두 표시
-        reviewCards.forEach((card) => {
-            card.style.display = "block";
-        });
-    }
-}
+// function updateReviewsDisplay() {
+//     if (window.innerWidth <= 768) {
+//         // 모바일에서는 한 번에 하나씩
+//         reviewCards.forEach((card, index) => {
+//             card.style.display =
+//                 index === currentReviewIndex ? "block" : "none";
+//         });
+//     } else {
+//         // 데스크톱에서는 모두 표시
+//         reviewCards.forEach((card) => {
+//             card.style.display = "block";
+//         });
+//     }
+// }
 
 // prevReviewBtn.addEventListener("click", () => {
 //     currentReviewIndex =
@@ -111,8 +111,8 @@ function updateReviewsDisplay() {
 // });
 
 // 화면 크기 변경 시 후기 표시 업데이트
-window.addEventListener("resize", updateReviewsDisplay);
-updateReviewsDisplay();
+// window.addEventListener("resize", updateReviewsDisplay);
+// updateReviewsDisplay();
 
 // 맨 위로 버튼
 const scrollToTopBtn = document.getElementById("scrollToTop");
