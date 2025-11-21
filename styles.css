@@ -837,18 +837,25 @@ section:first-of-type {
 
 /* CTA 섹션 */
 .cta {
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%);
+    width: fit-content;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     text-align: center;
     color: white;
+    padding: 5px;
+    border-radius: 20px;
 }
 
 .cta h2 {
-    font-size: 3rem;
+    font-size: 1.3rem;
     margin-bottom: 1rem;
 }
 
 .cta p {
-    font-size: 1.3rem;
+    font-size: 1rem;
     margin-bottom: 2rem;
     opacity: 0.9;
 }
@@ -1024,7 +1031,7 @@ section:first-of-type {
     }
 
     .cta h2 {
-        font-size: 2rem;
+        font-size: 1rem;
     }
 
     .cta p {
