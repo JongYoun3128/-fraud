@@ -1054,8 +1054,7 @@ section:first-of-type {
     }
 
     .footer-content {
-        grid-template-columns: 1fr;
-        text-align: center;
+        display: none;
     }
 
     .social-links {
