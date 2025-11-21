@@ -1,0 +1,1077 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>포인트그라운드 - 130% 리워드 쇼핑몰</title>
+        <link rel="stylesheet" href="styles.css" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <!-- 헤더 -->
+        <header class="header">
+            <div class="container header-content">
+                <div class="logo">
+                    <h1><img src="images/logo.png" alt="" /></h1>
+                </div>
+            </div>
+        </header>
+        <dic class="main">
+            <div class="main-img">
+                <img src="images/main.png" alt="" />
+            </div>
+        </dic>
+        <!-- 메인 히어로 섹션 -->
+        <section class="hero" id="home">
+            <div class="hero-slider">
+                <div class="hero-slide active">
+                    <div class="container">
+                        <div class="hero-content">
+                            <h2 class="hero-title">
+                                쇼핑하면서<br /><span class="highlight"
+                                    >130%를 돌려받으세요!</span
+                                >
+                            </h2>
+                            <p class="hero-subtitle">
+                                5명 그룹 완성 시 구매 금액의 130% 리워드 보장
+                            </p>
+                            <div class="hero-buttons"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-slide">
+                    <div class="container">
+                        <div class="hero-content">
+                            <h2 class="hero-title">
+                                투명한 시스템<br /><span class="highlight"
+                                    >실시간 진행률 확인!</span
+                                >
+                            </h2>
+                            <p class="hero-subtitle">
+                                내 그룹의 목표풀과 누적풀을 실시간으로
+                                확인하세요
+                            </p>
+                            <div class="hero-buttons"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-slide">
+                    <div class="container">
+                        <div class="hero-content">
+                            <h2 class="hero-title">
+                                10만원부터 3,000만원 이상까지!
+                            </h2>
+                            <p class="hero-subtitle">
+                                내 구매 금액에 맞는 라운드를 선택하세요
+                            </p>
+                            <div class="hero-buttons"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slider-dots" id="sliderDots"></div>
+        </section>
+
+        <!-- 핵심 시스템 섹션 -->
+        <section class="special-programs" id="rewards">
+            <div class="container">
+                <h2 class="section-title">혁명적인 130% 리워드 시스템</h2>
+                <p class="section-subtitle">
+                    5명이 모이면 모두가 130%를 받습니다
+                </p>
+                <div class="programs-grid">
+                    <div class="program-card">
+                        <div class="program-icon">🛍️</div>
+                        <h3>구매하기</h3>
+                        <p>
+                            원하는 상품을 구매하고<br />구매확정 버튼을 누르세요
+                        </p>
+                        <div class="program-badge">STEP 1</div>
+                    </div>
+                    <div class="program-card featured">
+                        <div class="program-icon">👥</div>
+                        <h3>그룹 매칭</h3>
+                        <p>
+                            자동으로 5명 그룹에 배정되어<br />목표풀이
+                            설정됩니다
+                        </p>
+                        <div class="program-badge special">130% 보장</div>
+                    </div>
+                    <div class="program-card">
+                        <div class="program-icon">💰</div>
+                        <h3>리워드 받기</h3>
+                        <p>그룹 목표 달성 시<br />구매금액의 130% 지급</p>
+                        <div class="program-badge">자동 지급</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 가격대별 라운드 섹션 -->
+        <section class="categories" id="categories">
+            <div class="container">
+                <h2 class="section-title">가격대별 라운드 선택</h2>
+                <p class="section-subtitle">
+                    구매 금액에 맞는 라운드에서 그룹이 매칭됩니다
+                </p>
+                <div class="tracks-grid">
+                    <div class="track-card">
+                        <div
+                            class="track-header"
+                            style="
+                                background: linear-gradient(
+                                    135deg,
+                                    #667eea 0%,
+                                    #764ba2 100%
+                                );
+                            "
+                        >
+                            <span class="track-icon">🥉</span>
+                            <h3>ROUND 1</h3>
+                        </div>
+                        <div class="track-content">
+                            <div class="track-range">10만원 ~ 20만원</div>
+                            <p class="track-desc">입문자를 위한 라운드</p>
+                            <div class="track-example">
+                                <small>예시: 15만원 구매 시</small>
+                                <strong>→ 19.5만원 리워드</strong>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="track-card">
+                        <div
+                            class="track-header"
+                            style="
+                                background: linear-gradient(
+                                    135deg,
+                                    #f093fb 0%,
+                                    #f5576c 100%
+                                );
+                            "
+                        >
+                            <span class="track-icon">🥈</span>
+                            <h3>ROUND 2</h3>
+                        </div>
+                        <div class="track-content">
+                            <div class="track-range">20만원 ~ 30만원</div>
+                            <p class="track-desc">일반 상품 구매</p>
+                            <div class="track-example">
+                                <small>예시: 25만원 구매 시</small>
+                                <strong>→ 32.5만원 리워드</strong>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="track-card featured">
+                        <div class="track-badge">인기</div>
+                        <div
+                            class="track-header"
+                            style="
+                                background: linear-gradient(
+                                    135deg,
+                                    #4facfe 0%,
+                                    #00f2fe 100%
+                                );
+                            "
+                        >
+                            <span class="track-icon">🥇</span>
+                            <h3>ROUND 3</h3>
+                        </div>
+                        <div class="track-content">
+                            <div class="track-range">30만원 ~ 50만원</div>
+                            <p class="track-desc">인기 상품 추천</p>
+                            <div class="track-example">
+                                <small>예시: 40만원 구매 시</small>
+                                <strong>→ 52만원 리워드</strong>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="track-card">
+                        <div
+                            class="track-header"
+                            style="
+                                background: linear-gradient(
+                                    135deg,
+                                    #43e97b 0%,
+                                    #38f9d7 100%
+                                );
+                            "
+                        >
+                            <span class="track-icon">💎</span>
+                            <h3>ROUND 4</h3>
+                        </div>
+                        <div class="track-content">
+                            <div class="track-range">50만원 ~ 100만원</div>
+                            <p class="track-desc">프리미엄 라운드</p>
+                            <div class="track-example">
+                                <small>예시: 75만원 구매 시</small>
+                                <strong>→ 97.5만원 리워드</strong>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="track-card">
+                        <div
+                            class="track-header"
+                            style="
+                                background: linear-gradient(
+                                    135deg,
+                                    #fa709a 0%,
+                                    #fee140 100%
+                                );
+                            "
+                        >
+                            <span class="track-icon">👑</span>
+                            <h3>ROUND 5</h3>
+                        </div>
+                        <div class="track-content">
+                            <div class="track-range">100만원 ~ 300만원</div>
+                            <p class="track-desc">럭셔리 라운드</p>
+                            <div class="track-example">
+                                <small>예시: 200만원 구매 시</small>
+                                <strong>→ 260만원 리워드</strong>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="track-card">
+                        <div
+                            class="track-header"
+                            style="
+                                background: linear-gradient(
+                                    135deg,
+                                    #30cfd0 0%,
+                                    #330867 100%
+                                );
+                            "
+                        >
+                            <span class="track-icon">💰</span>
+                            <h3>ROUND 6</h3>
+                        </div>
+                        <div class="track-content">
+                            <div class="track-range">300만원 ~ 1,000만원</div>
+                            <p class="track-desc">VIP 전용</p>
+                            <div class="track-example">
+                                <small>예시: 500만원 구매 시</small>
+                                <strong>→ 650만원 리워드</strong>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="track-card">
+                        <div
+                            class="track-header"
+                            style="
+                                background: linear-gradient(
+                                    135deg,
+                                    #ff6b6b 0%,
+                                    #ee5a6f 100%
+                                );
+                            "
+                        >
+                            <span class="track-icon">🏆</span>
+                            <h3>ROUND 7</h3>
+                        </div>
+                        <div class="track-content">
+                            <div class="track-range">1,000만원 ~ 3,000만원</div>
+                            <p class="track-desc">VVIP 라운드</p>
+                            <div class="track-example">
+                                <small>예시: 2,000만원 구매 시</small>
+                                <strong>→ 2,600만원 리워드</strong>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="track-card premium">
+                        <div class="track-badge premium">최고급</div>
+                        <div
+                            class="track-header"
+                            style="
+                                background: linear-gradient(
+                                    135deg,
+                                    #ffd700 0%,
+                                    #ffed4e 100%
+                                );
+                            "
+                        >
+                            <span class="track-icon">⭐</span>
+                            <h3>ROUND 8</h3>
+                        </div>
+                        <div class="track-content">
+                            <div class="track-range">3,000만원 이상</div>
+                            <p class="track-desc">프라이빗 라운드</p>
+                            <div class="track-example">
+                                <small>예시: 5,000만원 구매 시</small>
+                                <strong>→ 6,500만원 리워드</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 배너작업 -->
+
+        <section class="banner1">
+            <div class="banner-container">
+                <img src="images/1763113546.jpg" alt="" />
+            </div>
+        </section>
+        <!-- 이용방법 섹션 -->
+        <section class="how-it-works" id="how-it-works">
+            <div class="container">
+                <h2 class="section-title">5명 그룹 시스템 작동 원리</h2>
+                <p class="section-subtitle">
+                    구매확정 순서대로 5명이 1개 그룹을 구성합니다
+                </p>
+                <div class="group-system-visual">
+                    <div class="group-explanation">
+                        <div class="group-step">
+                            <div class="group-step-header">
+                                <span class="group-step-number">1</span>
+                                <h3>구매 & 구매확정</h3>
+                            </div>
+                            <p>
+                                상품을 구매하고 구매확정 버튼을 누르면 자동으로
+                                현재 진행중인 그룹에 매칭됩니다.
+                            </p>
+                        </div>
+                        <div class="group-step">
+                            <div class="group-step-header">
+                                <span class="group-step-number">2</span>
+                                <h3>5명 그룹 완성</h3>
+                            </div>
+                            <p>
+                                구매확정 순서대로 5명이 모이면 그룹이 완성되고
+                                목표풀이 확정됩니다.
+                            </p>
+                            <div class="group-formula">
+                                <strong>목표풀 = 그룹 5명의 몸값 합계</strong>
+                            </div>
+                        </div>
+                        <div class="group-step">
+                            <div class="group-step-header">
+                                <span class="group-step-number">3</span>
+                                <h3>리워드 재원 유입</h3>
+                            </div>
+                            <p>
+                                6번째 사람부터 구매확정할 때마다 상품의
+                                PV값(재원)이 1번 그룹에 지분비율대로 분배됩니다.
+                            </p>
+                            <div class="distribution-example">
+                                <div class="dist-title">📊 분배 예시</div>
+                                <div class="dist-content">
+                                    <p><strong>그룹 목표풀:</strong> 100만원</p>
+                                    <p><strong>지분:</strong></p>
+                                    <ul>
+                                        <li>A님 5만원 구매 → 5% 지분</li>
+                                        <li>B님 5만원 구매 → 5% 지분</li>
+                                        <li>C님 20만원 구매 → 20% 지분</li>
+                                        <li>D님 30만원 구매 → 30% 지분</li>
+                                        <li>E님 40만원 구매 → 40% 지분</li>
+                                    </ul>
+                                    <p class="dist-note">
+                                        6번째 사람이 10만원(PV 5만원) 구매 시 →
+                                        5만원÷1.1 = 45,454원을 위 지분비율로
+                                        분배
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="group-step">
+                            <div class="group-step-header">
+                                <span class="group-step-number">4</span>
+                                <h3>130% 달성 & 졸업</h3>
+                            </div>
+                            <p>
+                                누적풀이 목표풀에 도달하면 그룹 전원이 각자
+                                구매금액의 130%를 받고 그룹이 졸업합니다.
+                            </p>
+                            <div class="graduation-box">
+                                <span class="grad-icon">🎓</span>
+                                <strong
+                                    >그룹 완료 시 리워드 포인트 자동
+                                    지급!</strong
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 통계 섹션 -->
+        <section class="stats">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="28500">0</div>
+                        <div class="stat-label">누적 회원 수</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="7280">0</div>
+                        <div class="stat-label">완료된 그룹</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="156">0</div>
+                        <div class="stat-label">총 리워드 지급액 (억원)</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="130">0</div>
+                        <div class="stat-label">리워드 비율 (%)</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 상세 기능 섹션 -->
+        <section class="features-detail">
+            <div class="container">
+                <h2 class="section-title">왜 우리를 선택해야 할까요?</h2>
+                <div class="features-list">
+                    <div class="feature-item">
+                        <div class="feature-icon-wrapper">
+                            <div class="feature-icon">💯</div>
+                        </div>
+                        <div class="feature-content">
+                            <h3>확실한 100% 보장</h3>
+                            <p>
+                                구매 금액의 130%를 반드시 돌려받습니다. 5명
+                                그룹이 완성되면 모두가 130%를 받는 투명한
+                                시스템입니다.
+                            </p>
+                            <ul class="feature-list-items">
+                                <li>✓ 100% 보장된 130% 리워드</li>
+                                <li>✓ 그룹 완성 시 자동 지급</li>
+                                <li>✓ 실시간 진행률 확인 가능</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon-wrapper">
+                            <div class="feature-icon">👥</div>
+                        </div>
+                        <div class="feature-content">
+                            <h3>공정한 그룹 시스템</h3>
+                            <p>
+                                구매확정 순서대로 자동 매칭되며, 지분 비율에
+                                따라 공정하게 리워드가 분배됩니다.
+                            </p>
+                            <ul class="feature-list-items">
+                                <li>✓ 구매확정 순 자동 매칭</li>
+                                <li>✓ 지분 비율 투명 공개</li>
+                                <li>✓ 그룹 진행 현황 실시간 확인</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon-wrapper">
+                            <div class="feature-icon">🔒</div>
+                        </div>
+                        <div class="feature-content">
+                            <h3>안전한 거래 보장</h3>
+                            <p>
+                                금융위원회 인증을 받은 안전한 시스템으로
+                                개인정보와 결제 정보를 철저히 보호합니다.
+                            </p>
+                            <ul class="feature-list-items">
+                                <li>✓ 개인정보보호 인증 획득</li>
+                                <li>✓ 24시간 모니터링 시스템</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon-wrapper">
+                            <div class="feature-icon">📊</div>
+                        </div>
+                        <div class="feature-content">
+                            <h3>투명한 정산 시스템</h3>
+                            <p>
+                                모든 거래와 리워드 분배 내역이 투명하게
+                                공개되며, 실시간으로 확인할 수 있습니다.
+                            </p>
+                            <ul class="feature-list-items">
+                                <li>✓ 거래 원장 보관</li>
+                                <li>✓ 예상 완료일 자동 계산</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <dic class="main">
+            <div class="main-img2">
+                <img src="images/main2.png" alt="" />
+            </div>
+        </dic>
+        <!-- 비교 표 섹션 -->
+        <section class="comparison">
+            <div class="container">
+                <h2 class="section-title">다른 플랫폼과 비교해보세요</h2>
+                <div class="comparison-table">
+                    <div class="comparison-header">
+                        <div class="comparison-cell empty"></div>
+                        <div class="comparison-cell highlight">
+                            <h3>포인트그라운드몰</h3>
+                            <span class="badge-best">BEST</span>
+                        </div>
+                        <div class="comparison-cell">
+                            <h3>일반 캐시백</h3>
+                        </div>
+                        <div class="comparison-cell">
+                            <h3>포인트 적립</h3>
+                        </div>
+                    </div>
+                    <div class="comparison-row">
+                        <div class="comparison-cell label">리워드 비율</div>
+                        <div class="comparison-cell highlight">
+                            <strong>130%</strong>
+                        </div>
+                        <div class="comparison-cell">3~20%</div>
+                        <div class="comparison-cell">0.5~5%</div>
+                    </div>
+                    <div class="comparison-row">
+                        <div class="comparison-cell label">수익 보장</div>
+                        <div class="comparison-cell highlight">
+                            <strong>100% 보장</strong>
+                        </div>
+                        <div class="comparison-cell">변동</div>
+                        <div class="comparison-cell">변동</div>
+                    </div>
+                    <div class="comparison-row">
+                        <div class="comparison-cell label">시스템</div>
+                        <div class="comparison-cell highlight">
+                            <strong>5명 그룹</strong>
+                        </div>
+                        <div class="comparison-cell">개인별</div>
+                        <div class="comparison-cell">개인별</div>
+                    </div>
+                    <div class="comparison-row">
+                        <div class="comparison-cell label">진행률 확인</div>
+                        <div class="comparison-cell highlight">
+                            <strong>실시간</strong>
+                        </div>
+                        <div class="comparison-cell">불가</div>
+                        <div class="comparison-cell">불가</div>
+                    </div>
+                    <div class="comparison-row">
+                        <div class="comparison-cell label">가격대 선택</div>
+                        <div class="comparison-cell highlight">
+                            <strong>8개 라운드</strong>
+                        </div>
+                        <div class="comparison-cell">제한 없음</div>
+                        <div class="comparison-cell">제한 없음</div>
+                    </div>
+                    <div class="comparison-row">
+                        <div class="comparison-cell label">투명성</div>
+                        <div class="comparison-cell highlight">
+                            <strong>완전 공개</strong>
+                        </div>
+                        <div class="comparison-cell">부분 공개</div>
+                        <div class="comparison-cell">부분 공개</div>
+                    </div>
+                    <div class="comparison-row">
+                        <div class="comparison-cell label">출금</div>
+                        <div class="comparison-cell highlight">
+                            <strong>리워드 포인트</strong>
+                        </div>
+                        <div class="comparison-cell">현금/포인트</div>
+                        <div class="comparison-cell">포인트만</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 후기 섹션 -->
+        <section class="reviews" id="reviews">
+            <div class="container">
+                <h2 class="section-title">실제 사용자들의 생생한 후기</h2>
+                <div class="reviews-slider" id="reviewsSlider">
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="review-avatar">김**</div>
+                            <div class="review-info">
+                                <h4>김민지</h4>
+                                <div class="review-stars">⭐⭐⭐⭐⭐</div>
+                            </div>
+                        </div>
+                        <p class="review-text">
+                            ROUND 2에서 25만원 쓰고 32.5만원 받았어요! 처음엔
+                            믿기지 않았는데 정말 130% 지급되더라고요. 그룹 진행
+                            과정도 투명하게 보여서 신뢰가 갔습니다!
+                        </p>
+                        <span class="review-date">2일 전</span>
+                    </div>
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="review-avatar">박**</div>
+                            <div class="review-info">
+                                <h4>박준혁</h4>
+                                <div class="review-stars">⭐⭐⭐⭐⭐</div>
+                            </div>
+                        </div>
+                        <p class="review-text">
+                            5명 그룹 시스템이 정말 공정해요. 구매확정 순서대로
+                            매칭되고, 지분 비율도 명확하게 보여줍니다. 벌써 두
+                            번째 그룹 완료했어요!
+                        </p>
+                        <span class="review-date">5일 전</span>
+                    </div>
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="review-avatar">이**</div>
+                            <div class="review-info">
+                                <h4>이서윤</h4>
+                                <div class="review-stars">⭐⭐⭐⭐⭐</div>
+                            </div>
+                        </div>
+                        <p class="review-text">
+                            처음엔 복잡해 보였는데 막상 해보니 간단해요.
+                            구매하고 구매확정만 누르면 자동으로 그룹에 매칭되고,
+                            리워드도 자동 지급! 너무 편리합니다.
+                        </p>
+                        <span class="review-date">1주일 전</span>
+                    </div>
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="review-avatar">최**</div>
+                            <div class="review-info">
+                                <h4>최도현</h4>
+                                <div class="review-stars">⭐⭐⭐⭐⭐</div>
+                            </div>
+                        </div>
+                        <p class="review-text">
+                            ROUND 4에서 75만원 구매 후 97.5만원 받았습니다.
+                            22.5만원 수익! 이런 시스템은 처음이에요. 실시간으로
+                            누적풀도 확인할 수 있어서 안심됩니다.
+                        </p>
+                        <span class="review-date">2주일 전</span>
+                    </div>
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="review-avatar">정**</div>
+                            <div class="review-info">
+                                <h4>정수아</h4>
+                                <div class="review-stars">⭐⭐⭐⭐⭐</div>
+                            </div>
+                        </div>
+                        <p class="review-text">
+                            가족 선물 사면서 ROUND 3에서 40만원 구매했는데
+                            52만원 돌려받았어요! 12만원이나 이득 봤습니다. 그룹
+                            완료되자마자 바로 포인트로 들어와서 믿음이 가요.
+                        </p>
+                        <span class="review-date">3주일 전</span>
+                    </div>
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="review-avatar">강**</div>
+                            <div class="review-info">
+                                <h4>강태윤</h4>
+                                <div class="review-stars">⭐⭐⭐⭐⭐</div>
+                            </div>
+                        </div>
+                        <p class="review-text">
+                            ROUND 5에서 고가 전자제품 구매했는데 정말 130%
+                            받았습니다. 다른 쇼핑몰은 캐시백이라고 해봐야
+                            1~2%인데, 여기는 30%나 더 받으니 완전 다르네요. 강력
+                            추천!
+                        </p>
+                        <span class="review-date">1개월 전</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Before & After 섹션 -->
+        <section class="before-after">
+            <div class="container">
+                <h2 class="section-title">실제 회원들의 수익 인증</h2>
+                <p class="section-subtitle">
+                    구매 금액의 130%를 받은 회원들의 이야기
+                </p>
+                <div class="ba-grid">
+                    <div class="ba-card">
+                        <div class="ba-header">
+                            <span class="ba-period">ROUND 2 완료</span>
+                            <span class="ba-user">김** 님</span>
+                        </div>
+                        <div class="ba-content">
+                            <div class="ba-before">
+                                <h4>구매 금액</h4>
+                                <p class="ba-amount">₩250,000</p>
+                            </div>
+                            <div class="ba-arrow">→</div>
+                            <div class="ba-after">
+                                <h4>받은 리워드</h4>
+                                <p class="ba-amount highlight">₩325,000</p>
+                                <p class="ba-desc">
+                                    130% 리워드<br />전액 지급
+                                </p>
+                            </div>
+                        </div>
+                        <div class="ba-comment">
+                            "처음엔 믿기지 않았는데 정말 25만원 쓰고 32.5만원을
+                            받았어요! 그룹 5명 완성되니까 바로 포인트
+                            들어왔습니다. 수익 32.5만원!"
+                        </div>
+                    </div>
+                    <div class="ba-card">
+                        <div class="ba-header">
+                            <span class="ba-period">ROUND 3 완료</span>
+                            <span class="ba-user">이** 님</span>
+                        </div>
+                        <div class="ba-content">
+                            <div class="ba-before">
+                                <h4>구매 금액</h4>
+                                <p class="ba-amount">₩400,000</p>
+                            </div>
+                            <div class="ba-arrow">→</div>
+                            <div class="ba-after">
+                                <h4>받은 리워드</h4>
+                                <p class="ba-amount highlight">₩520,000</p>
+                                <p class="ba-desc">
+                                    130% 리워드<br />전액 지급
+                                </p>
+                            </div>
+                        </div>
+                        <div class="ba-comment">
+                            "사무실 가구 사면서 40만원 썼는데 52만원
+                            돌려받았어요. 그룹 진행 상황도 실시간으로 보여서
+                            믿을 수 있었습니다. 수익 52만원!"
+                        </div>
+                    </div>
+                    <div class="ba-card">
+                        <div class="ba-header">
+                            <span class="ba-period">ROUND 5 완료</span>
+                            <span class="ba-user">박** 님</span>
+                        </div>
+                        <div class="ba-content">
+                            <div class="ba-before">
+                                <h4>구매 금액</h4>
+                                <p class="ba-amount">₩2,000,000</p>
+                            </div>
+                            <div class="ba-arrow">→</div>
+                            <div class="ba-after">
+                                <h4>받은 리워드</h4>
+                                <p class="ba-amount highlight">₩2,600,000</p>
+                                <p class="ba-desc">
+                                    130% 리워드<br />전액 지급
+                                </p>
+                            </div>
+                        </div>
+                        <div class="ba-comment">
+                            "200만원짜리 고급 가전 구매했는데 260만원
+                            받았습니다. 260만원 순수익! 이런 시스템은
+                            처음이에요. 정말 투명하고 확실해요!"
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 수상 내역 섹션 -->
+        <section class="awards">
+            <div class="container">
+                <h2 class="section-title">고객이 선택한 1위 플랫폼</h2>
+                <div class="awards-grid">
+                    <div class="award-card">
+                        <div class="award-medal">🏆</div>
+                        <h4>2025 혁신 서비스</h4>
+                        <p>대한민국 브랜드 대상</p>
+                    </div>
+                    <div class="award-card">
+                        <div class="award-medal">🥇</div>
+                        <h4>고객만족도 1위</h4>
+                        <p>쇼핑 리워드 플랫폼 부문</p>
+                    </div>
+                    <div class="award-card">
+                        <div class="award-medal">⭐</div>
+                        <h4>소비자 신뢰 대상</h4>
+                        <p>한국소비자협회 선정</p>
+                    </div>
+                    <div class="award-card">
+                        <div class="award-medal">💎</div>
+                        <h4>혁신 서비스 대상</h4>
+                        <p>쇼핑 리워드 부문</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 언론 보도 섹션 -->
+        <section class="press">
+            <div class="container">
+                <h2 class="section-title">언론이 주목한 플랫폼</h2>
+                <div class="press-grid">
+                    <div class="press-item">
+                        <div class="press-logo">📰</div>
+                        <h4>조선일보</h4>
+                        <p>"쇼핑 적립 혁명, 월 10만원 부수입 가능"</p>
+                        <span class="press-date">2025.03.15</span>
+                    </div>
+                    <div class="press-item">
+                        <div class="press-logo">📺</div>
+                        <h4>MBC 뉴스</h4>
+                        <p>"스마트 소비 시대, 캐시백 플랫폼 급성장"</p>
+                        <span class="press-date">2025.02.28</span>
+                    </div>
+                    <div class="press-item">
+                        <div class="press-logo">💼</div>
+                        <h4>한국경제</h4>
+                        <p>"이커머스 혁신, 소비자가 주인공으로"</p>
+                        <span class="press-date">2025.02.10</span>
+                    </div>
+                    <div class="press-item">
+                        <div class="press-logo">🎯</div>
+                        <h4>중앙일보</h4>
+                        <p>"쇼핑으로 돈버는 시대, 누적 회원 15만 돌파"</p>
+                        <span class="press-date">2025.01.20</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ 섹션 -->
+        <section class="faq">
+            <div class="container">
+                <h2 class="section-title">자주 묻는 질문</h2>
+                <div class="faq-container">
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>정말 130%를 받을 수 있나요?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                네! 구매확정 후 5명 그룹이 완성되고 목표풀에
+                                도달하면 반드시 구매 금액의 130%를 리워드로
+                                받으실 수 있습니다. 100% 보장된 시스템입니다.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>5명 그룹은 어떻게 매칭되나요?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                구매확정을 하시면 자동으로 해당 라운드의 현재
+                                진행중인 그룹에 매칭됩니다. 구매확정 순서대로
+                                5명이 모이면 그룹이 완성되고 목표풀이
+                                확정됩니다.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>언제 리워드를 받나요?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                6번째 사람부터 구매확정할 때마다 PV값이 여러분의
+                                그룹에 지분 비율대로 분배됩니다. 누적풀이
+                                목표풀에 도달하면 그룹 전원에게 130% 리워드가
+                                자동 지급됩니다.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>한 번에 여러 상품을 주문할 수 있나요?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                공정한 그룹 매칭을 위해 한 번에 한 개 상품만
+                                주문 가능합니다. 장바구니 기능 없이 단일 상품
+                                주문 방식으로 운영됩니다. 추가 구매를 원하시면
+                                이전 주문 완료 후 다시 주문하실 수 있습니다.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>라운드는 어떻게 선택하나요?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                구매하시는 상품의 가격(배송비 제외)에 따라
+                                자동으로 라운드가 결정됩니다. 10만원~20만원은
+                                ROUND 1, 20만원~30만원은 ROUND 2 등 총 8개
+                                라운드로 나뉘어 같은 가격대의 회원들끼리 그룹이
+                                매칭됩니다.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>개인정보는 안전한가요?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                금융위원회 인증을 받은 보안 시스템을 사용하며,
+                                256bit SSL 암호화로 모든 정보를 보호합니다.
+                                개인정보보호법을 철저히 준수하며, 고객님의
+                                정보를 절대 외부에 유출하지 않습니다.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>포인트 유효기간이 있나요?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                적립된 포인트는 적립일로부터 2년간 유효합니다.
+                                유효기간 만료 30일 전에 알림을 보내드립니다.
+                                장기간 미사용 시에는 고객센터로 연락주시면
+                                유효기간 연장 처리가 가능합니다.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 실시간 활동 피드 -->
+        <section class="live-feed">
+            <div class="container">
+                <h2 class="section-title">실시간 리워드 지급 현황</h2>
+                <p class="section-subtitle">
+                    지금 이 순간에도 회원들이 130%를 받고 있습니다
+                </p>
+                <div class="feed-container" id="liveFeed">
+                    <div class="feed-item">
+                        <span class="feed-avatar">👤</span>
+                        <span class="feed-text"
+                            ><strong>김**</strong>님의 그룹(ROUND 2)이 완료되어
+                            <strong>65만원</strong> 리워드 지급!</span
+                        >
+                        <span class="feed-time">방금 전</span>
+                    </div>
+                    <div class="feed-item">
+                        <span class="feed-avatar">👤</span>
+                        <span class="feed-text"
+                            ><strong>이**</strong>님이 ROUND 3 그룹에
+                            매칭되었습니다</span
+                        >
+                        <span class="feed-time">1분 전</span>
+                    </div>
+                    <div class="feed-item">
+                        <span class="feed-avatar">👤</span>
+                        <span class="feed-text"
+                            ><strong>박**</strong>님의 그룹(ROUND 4)이 완료되어
+                            <strong>650만원</strong> 리워드 지급!</span
+                        >
+                        <span class="feed-time">2분 전</span>
+                    </div>
+                    <div class="feed-item">
+                        <span class="feed-avatar">👤</span>
+                        <span class="feed-text"
+                            ><strong>최**</strong>님의 ROUND 1 그룹이 5명
+                            완성되었습니다</span
+                        >
+                        <span class="feed-time">3분 전</span>
+                    </div>
+                    <div class="feed-item">
+                        <span class="feed-avatar">👤</span>
+                        <span class="feed-text"
+                            ><strong>정**</strong>님의 그룹(ROUND 3)이 완료되어
+                            <strong>260만원</strong> 리워드 지급!</span
+                        >
+                        <span class="feed-time">5분 전</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA 섹션 -->
+        <section class="cta">
+            <div class="container">
+                <h2>지금 바로 130% 리워드 받으세요!</h2>
+                <p>5명 그룹 완성 시 구매 금액의 130%를 100% 보장!</p>
+                <button class="btn-large btn-white">지금 시작하기</button>
+            </div>
+        </section>
+
+        <!-- 푸터 -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-section">
+                        <h3>POINTGROUND MALL</h3>
+                        <p>스마트한 쇼핑의 시작</p>
+                    </div>
+                    <div class="footer-section">
+                        <h4>서비스</h4>
+                        <ul>
+                            <li><a href="#javascript:;">돈버는쇼핑</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4>고객지원</h4>
+                        <ul>
+                            <li><a href="#javascript:;">공지사항</a></li>
+                            <li><a href="#javascript:;">FAQ</a></li>
+                            <li><a href="#javascript:;">1:1 문의</a></li>
+                            <li><a href="#javascript:;">제휴문의</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4>정보</h4>
+                        <ul>
+                            <li>
+                                <a
+                                    href="http://pointground.co.kr/"
+                                    target="_blank"
+                                    >회사소개</a
+                                >
+                            </li>
+                            <li><a href="#javascript:;">이용약관</a></li>
+                            <li>
+                                <a href="#javascript:;">개인정보처리방침</a>
+                            </li>
+                            <li><a href="#javascript:;">채용정보</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>
+                        <strong>상호:</strong> 포인트그라운드 |
+                        <strong>대표자:</strong> 문송원 |
+                        <strong>사업자등록번호:</strong> 513-70-01041
+                    </p>
+                    <p>
+                        <strong>주소:</strong> 서울특별시 금천구 벚꽃로 286,
+                        11층 1101호(가산동, 삼성리더스타워)
+                    </p>
+                    <p>
+                        <strong>전화:</strong> 1811-8428 |
+                        <strong>이메일:</strong> officecine01@gmail.com |
+                        <strong>개인정보관리책임자:</strong> 손가비
+                    </p>
+                    <p>
+                        <strong>통신판매업신고번호:</strong>
+                        <a
+                            href="#"
+                            target="_blank"
+                            style="color: inherit; text-decoration: underline"
+                            >사업자정보확인</a
+                        >
+                    </p>
+                    <p class="copyright">
+                        Copyright ⓒ 2025 포인트그라운드. All Rights Reserved.
+                    </p>
+                </div>
+            </div>
+        </footer>
+
+        <!-- 맨 위로 버튼 -->
+        <button class="scroll-to-top" id="scrollToTop">↑</button>
+
+        <script src="script.js"></script>
+    </body>
+</html>
