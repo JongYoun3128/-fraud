@@ -1113,7 +1113,7 @@ section:first-of-type {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
     .main-img img {
         width: 100%;
     }
