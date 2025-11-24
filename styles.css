@@ -78,6 +78,12 @@ body {
     text-align: center;
     align-items: center;
 }
+.main-img21 {
+    text-align: center;
+}
+.main-img21 img {
+    width: 40%;
+}
 .header-content {
     display: flex;
     align-items: center;
@@ -1128,10 +1134,15 @@ section:first-of-type {
     .main-img img {
         width: 100%;
     }
+    .slider-dots {
+        display: none;
+    }
     .container {
         padding: 0 15px;
     }
-
+    .hero {
+        height: 30vh;
+    }
     .header-content {
         padding: 1rem 10px;
     }
