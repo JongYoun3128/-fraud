@@ -64,11 +64,19 @@ body {
     transition: all 0.3s ease;
     width: 100%;
 }
-.main-img {
+.main-img2 {
     text-align: center;
 }
 .main-img2 img {
     width: 100%;
+}
+.main-img {
+    text-align: center;
+}
+.main-img img {
+    width: 40%;
+    text-align: center;
+    align-items: center;
 }
 .header-content {
     display: flex;
@@ -224,7 +232,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    height: 50%;
+    height: 70%;
     opacity: 0;
     transition: opacity 0.5s ease;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
