@@ -326,50 +326,50 @@ function updateCategoryStats() {
 setInterval(updateCategoryStats, 30000);
 
 // 실시간 사용자 알림 (130% 시스템)
-function showNotification() {
-    const notifications = [
-        "김**님의 ROUND 2 그룹이 완료되어 32.5만원 지급!",
-        "이**님이 ROUND 3 그룹에 매칭되었습니다",
-        "박**님의 ROUND 4 그룹이 완료되어 97.5만원 지급!",
-        "최**님의 그룹이 5명 완성되었습니다",
-        "정**님의 ROUND 1 그룹이 완료되어 19.5만원 지급!",
-        "강**님이 ROUND 5 그룹에 매칭되었습니다",
-    ];
+// function showNotification() {
+//     const notifications = [
+//         "김**님의 ROUND 2 그룹이 완료되어 32.5만원 지급!",
+//         "이**님이 ROUND 3 그룹에 매칭되었습니다",
+//         "박**님의 ROUND 4 그룹이 완료되어 97.5만원 지급!",
+//         "최**님의 그룹이 5명 완성되었습니다",
+//         "정**님의 ROUND 1 그룹이 완료되어 19.5만원 지급!",
+//         "강**님이 ROUND 5 그룹에 매칭되었습니다",
+//     ];
 
-    const notification = document.createElement("div");
-    notification.style.position = "fixed";
-    notification.style.bottom = "100px";
-    notification.style.right = "30px";
-    notification.style.background = "white";
-    notification.style.padding = "1rem 1.5rem";
-    notification.style.borderRadius = "8px";
-    notification.style.boxShadow = "0 4px 6px rgba(0, 0, 0, 0.1)";
-    notification.style.zIndex = "1000";
-    notification.style.opacity = "0";
-    notification.style.transform = "translateX(400px)";
-    notification.style.transition = "all 0.3s ease";
-    notification.style.maxWidth = "350px";
-    notification.textContent =
-        notifications[Math.floor(Math.random() * notifications.length)];
+//     const notification = document.createElement("div");
+//     notification.style.position = "fixed";
+//     notification.style.bottom = "100px";
+//     notification.style.right = "30px";
+//     notification.style.background = "white";
+//     notification.style.padding = "1rem 1.5rem";
+//     notification.style.borderRadius = "8px";
+//     notification.style.boxShadow = "0 4px 6px rgba(0, 0, 0, 0.1)";
+//     notification.style.zIndex = "1000";
+//     notification.style.opacity = "0";
+//     notification.style.transform = "translateX(400px)";
+//     notification.style.transition = "all 0.3s ease";
+//     notification.style.maxWidth = "350px";
+//     notification.textContent =
+//         notifications[Math.floor(Math.random() * notifications.length)];
 
-    document.body.appendChild(notification);
+//     document.body.appendChild(notification);
 
-    setTimeout(() => {
-        notification.style.opacity = "1";
-        notification.style.transform = "translateX(0)";
-    }, 100);
+//     setTimeout(() => {
+//         notification.style.opacity = "1";
+//         notification.style.transform = "translateX(0)";
+//     }, 100);
 
-    setTimeout(() => {
-        notification.style.opacity = "0";
-        notification.style.transform = "translateX(400px)";
-        setTimeout(() => notification.remove(), 300);
-    }, 4000);
-}
+//     setTimeout(() => {
+//         notification.style.opacity = "0";
+//         notification.style.transform = "translateX(400px)";
+//         setTimeout(() => notification.remove(), 300);
+//     }, 4000);
+// }
 
-// 10초마다 알림 표시
-setInterval(showNotification, 10000);
-// 페이지 로드 5초 후 첫 알림
-setTimeout(showNotification, 5000);
+// // 10초마다 알림 표시
+// setInterval(showNotification, 10000);
+// // 페이지 로드 5초 후 첫 알림
+// setTimeout(showNotification, 5000);
 
 // FAQ 아코디언
 const faqItems = document.querySelectorAll(".faq-item");
@@ -390,84 +390,84 @@ faqItems.forEach((item) => {
     });
 });
 
-// 실시간 활동 피드 애니메이션 - 130% 시스템 버전
-function updateLiveFeed() {
-    const feedContainer = document.getElementById("liveFeed");
-    if (!feedContainer) return;
+// // 실시간 활동 피드 애니메이션 - 130% 시스템 버전
+// function updateLiveFeed() {
+//     const feedContainer = document.getElementById("liveFeed");
+//     if (!feedContainer) return;
 
-    const names = [
-        "김**",
-        "이**",
-        "박**",
-        "최**",
-        "정**",
-        "강**",
-        "조**",
-        "윤**",
-        "장**",
-        "임**",
-    ];
-    const tracks = [
-        { name: "ROUND 1", min: 10, max: 20 },
-        { name: "ROUND 2", min: 20, max: 30 },
-        { name: "ROUND 3", min: 30, max: 50 },
-        { name: "ROUND 4", min: 50, max: 100 },
-        { name: "ROUND 5", min: 100, max: 300 },
-        { name: "ROUND 6", min: 300, max: 1000 },
-        { name: "ROUND 7", min: 1000, max: 3000 },
-        { name: "ROUND 8", min: 3000, max: 10000 },
-    ];
+//     const names = [
+//         "김**",
+//         "이**",
+//         "박**",
+//         "최**",
+//         "정**",
+//         "강**",
+//         "조**",
+//         "윤**",
+//         "장**",
+//         "임**",
+//     ];
+//     const tracks = [
+//         { name: "ROUND 1", min: 10, max: 20 },
+//         { name: "ROUND 2", min: 20, max: 30 },
+//         { name: "ROUND 3", min: 30, max: 50 },
+//         { name: "ROUND 4", min: 50, max: 100 },
+//         { name: "ROUND 5", min: 100, max: 300 },
+//         { name: "ROUND 6", min: 300, max: 1000 },
+//         { name: "ROUND 7", min: 1000, max: 3000 },
+//         { name: "ROUND 8", min: 3000, max: 10000 },
+//     ];
 
-    const actionTypes = [
-        {
-            type: "complete",
-            text: "의 그룹([TRACK])이 완료되어 <strong>[AMOUNT]</strong> 리워드 지급!",
-        },
-        { type: "match", text: "이 [TRACK] 그룹에 매칭되었습니다" },
-        { type: "group", text: "의 [TRACK] 그룹이 5명 완성되었습니다" },
-    ];
+//     const actionTypes = [
+//         {
+//             type: "complete",
+//             text: "의 그룹([TRACK])이 완료되어 <strong>[AMOUNT]</strong> 리워드 지급!",
+//         },
+//         { type: "match", text: "이 [TRACK] 그룹에 매칭되었습니다" },
+//         { type: "group", text: "의 [TRACK] 그룹이 5명 완성되었습니다" },
+//     ];
 
-    const randomName = names[Math.floor(Math.random() * names.length)];
-    const randomTrack = tracks[Math.floor(Math.random() * tracks.length)];
-    const randomAction =
-        actionTypes[Math.floor(Math.random() * actionTypes.length)];
+//     const randomName = names[Math.floor(Math.random() * names.length)];
+//     const randomTrack = tracks[Math.floor(Math.random() * tracks.length)];
+//     const randomAction =
+//         actionTypes[Math.floor(Math.random() * actionTypes.length)];
 
-    let message = "";
+//     let message = "";
 
-    if (randomAction.type === "complete") {
-        const amount =
-            Math.floor(
-                Math.random() * (randomTrack.max - randomTrack.min + 1)
-            ) + randomTrack.min;
-        message = randomAction.text
-            .replace("[TRACK]", randomTrack.name)
-            .replace("[AMOUNT]", amount + "만원");
-    } else {
-        message = randomAction.text.replace("[TRACK]", randomTrack.name);
-    }
+//     if (randomAction.type === "complete") {
+//         const amount =
+//             Math.floor(
+//                 Math.random() * (randomTrack.max - randomTrack.min + 1)
+//             ) + randomTrack.min;
+//         message = randomAction.text
+//             .replace("[TRACK]", randomTrack.name)
+//             .replace("[AMOUNT]", amount + "만원");
+//     } else {
+//         message = randomAction.text.replace("[TRACK]", randomTrack.name);
+//     }
 
-    const feedItem = document.createElement("div");
-    feedItem.className = "feed-item";
-    feedItem.innerHTML = `
-        <span class="feed-avatar">👤</span>
-        <span class="feed-text"><strong>${randomName}</strong>님${message}</span>
-        <span class="feed-time">방금 전</span>
-    `;
+//     const feedItem = document.createElement("div");
+//     feedItem.className = "feed-item";
+//     feedItem.innerHTML = `
+//         <span class="feed-avatar">👤</span>
+//         <span class="feed-text"><strong>${randomName}</strong>님${message}</span>
+//         <span class="feed-time">방금 전</span>
+//     `;
 
-    // 첫 번째 아이템으로 추가
-    feedContainer.insertBefore(feedItem, feedContainer.firstChild);
+//     // 첫 번째 아이템으로 추가
+//     feedContainer.insertBefore(feedItem, feedContainer.firstChild);
 
-    // 5개 이상이면 마지막 아이템 삭제
-    if (feedContainer.children.length > 5) {
-        feedContainer.removeChild(feedContainer.lastChild);
-    }
-}
+//     // 5개 이상이면 마지막 아이템 삭제
+//     if (feedContainer.children.length > 5) {
+//         feedContainer.removeChild(feedContainer.lastChild);
+//     }
+// }
 
-// 15초마다 피드 업데이트
-setInterval(updateLiveFeed, 15000);
+// // 15초마다 피드 업데이트
+// setInterval(updateLiveFeed, 15000);
 
-// 페이지 로드 시 첫 업데이트
-setTimeout(updateLiveFeed, 3000);
+// // 페이지 로드 시 첫 업데이트
+// setTimeout(updateLiveFeed, 3000);
 
 // 숫자에 쉼표 추가하는 함수
 function numberWithCommas(x) {

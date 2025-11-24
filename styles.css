@@ -953,7 +953,11 @@ section:first-of-type {
     margin-top: 1rem;
     opacity: 0.7;
 }
-
+.bold {
+    font-weight: bold;
+    font-size: 40px;
+    color: #f59e0b;
+}
 /* 맨 위로 버튼 */
 .scroll-to-top {
     position: fixed;
