@@ -1134,6 +1134,9 @@ section:first-of-type {
     .main-img img {
         width: 100%;
     }
+    .main-img21 img {
+        width: 70%;
+    }
     .slider-dots {
         display: none;
     }
