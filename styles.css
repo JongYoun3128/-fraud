@@ -859,7 +859,9 @@ section:first-of-type {
     margin-bottom: 2rem;
     opacity: 0.9;
 }
-
+.location {
+    text-align: center;
+}
 /* 푸터 */
 .footer {
     background: #1f2937;
@@ -1152,7 +1154,10 @@ section:first-of-type {
     .hero-subtitle {
         font-size: 1rem;
     }
-
+    .location iframe {
+        width: 350px;
+        height: 350px;
+    }
     .btn-large {
         padding: 0.8rem 1.5rem;
         font-size: 0.95rem;
