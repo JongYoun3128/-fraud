@@ -23,7 +23,10 @@
     --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
     --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
 }
-
+a {
+    text-decoration: none;
+    color: inherit;
+}
 html {
     overflow-x: hidden;
 }
@@ -64,6 +67,7 @@ body {
     transition: all 0.3s ease;
     width: 100%;
 }
+
 .main-img2 {
     text-align: center;
 }
@@ -1153,7 +1157,7 @@ section:first-of-type {
         width: 70%;
     }
     .hero-slider {
-        height: 60%;
+        height: 80%;
     }
     .hero-slide {
         height: 70%;
