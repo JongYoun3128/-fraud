@@ -617,13 +617,9 @@ section:first-of-type {
 }
 
 .group-formula {
-    background: linear-gradient(
-        135deg,
-        var(--primary-color),
-        var(--primary-dark)
-    );
+    background: linear-gradient(135deg, var(--success-color), #059669);
     color: white;
-    padding: 1.5rem;
+    padding: 1.3rem;
     border-radius: 12px;
     text-align: center;
     margin-top: 1rem;
