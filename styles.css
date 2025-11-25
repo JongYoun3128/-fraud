@@ -1271,6 +1271,9 @@ section:first-of-type {
     .business-card p {
         font-size: 0.95rem;
     }
+    .rental img {
+        width: 300px;
+    }
 }
 
 /* 애니메이션 */
@@ -1601,7 +1604,7 @@ section:first-of-type {
 .other-business::before {
     content: "";
     position: absolute;
-    top: 0;
+    top: 10px;
     left: 0;
     right: 0;
     height: 200px;

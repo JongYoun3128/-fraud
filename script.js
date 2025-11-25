@@ -519,7 +519,10 @@ baCards.forEach((card) => {
     card.style.transition = "all 0.6s ease";
     baObserver.observe(card);
 });
-
+const cafeBtn = document.querySelector("#cafe-btn");
+const popup = () => {
+    alert("BLUE SEED 준비중입니다.");
+};
 // 페이지 상단으로 부드럽게 스크롤하는 기능 개선
 document.querySelectorAll('a[href="#home"]').forEach((link) => {
     link.addEventListener("click", (e) => {
