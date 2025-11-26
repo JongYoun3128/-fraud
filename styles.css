@@ -196,6 +196,22 @@ body {
     font-size: 1.1rem;
 }
 
+.feature-icon {
+    width: 120px;
+    height: 120px;
+    background: linear-gradient(
+        135deg,
+        var(--primary-color),
+        var(--primary-dark)
+    );
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    box-shadow: var(--shadow-lg);
+    color: white;
+}
 .btn-white {
     background: white;
     color: var(--primary-color);
@@ -992,7 +1008,9 @@ section:first-of-type {
     box-shadow: var(--shadow-lg);
     z-index: 999;
 }
-
+.program-card img {
+    width: 100%;
+}
 .scroll-to-top.visible {
     opacity: 1;
     visibility: visible;
@@ -1190,7 +1208,9 @@ section:first-of-type {
         font-size: 1.8rem;
         line-height: 1.3;
     }
-
+    .feature-icon {
+        font-size: 2rem;
+    }
     .hero-subtitle {
         font-size: 1rem;
     }
@@ -1206,7 +1226,9 @@ section:first-of-type {
     .section-title {
         font-size: 2.3em;
     }
-
+    .program-card img {
+        width: 100px;
+    }
     section {
         padding: 2.5rem 0;
     }
@@ -1221,9 +1243,7 @@ section:first-of-type {
     .group-step {
         padding: 1.5rem;
     }
-    .comparison {
-        display: none;
-    }
+
     .slider-btn {
         display: none;
     }
@@ -1324,22 +1344,6 @@ section:first-of-type {
     flex-shrink: 0;
 }
 
-.feature-icon {
-    width: 120px;
-    height: 120px;
-    background: linear-gradient(
-        135deg,
-        var(--primary-color),
-        var(--primary-dark)
-    );
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 4rem;
-    box-shadow: var(--shadow-lg);
-}
-
 .feature-content h3 {
     font-size: 1.8rem;
     margin-bottom: 1rem;
@@ -1411,7 +1415,9 @@ section:first-of-type {
     font-weight: 600;
     color: var(--text-dark);
 }
-
+.mob-grape img {
+    width: 100%;
+}
 .comparison-cell.highlight {
     background: linear-gradient(
         135deg,
@@ -1420,7 +1426,7 @@ section:first-of-type {
     );
     color: white;
     border-radius: 8px;
-    padding: 1rem;
+    padding: 5px;
     font-weight: 600;
 }
 
