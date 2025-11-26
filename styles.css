@@ -1009,7 +1009,7 @@ section:first-of-type {
     z-index: 999;
 }
 .program-card img {
-    width: 100%;
+    width: 100px;
 }
 .scroll-to-top.visible {
     opacity: 1;
