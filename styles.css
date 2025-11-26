@@ -195,7 +195,9 @@ body {
     padding: 1rem 2.5rem;
     font-size: 1.1rem;
 }
-
+.comparison {
+    font-size: 19px;
+}
 .feature-icon {
     width: 120px;
     height: 120px;
@@ -1210,6 +1212,9 @@ section:first-of-type {
     }
     .feature-icon {
         font-size: 2rem;
+    }
+    .comparison {
+        font-size: 13px;
     }
     .hero-subtitle {
         font-size: 1rem;
