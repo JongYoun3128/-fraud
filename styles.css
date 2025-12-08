@@ -994,6 +994,26 @@ section:first-of-type {
 .bold img {
     width: 100%;
 }
+.kakao {
+    position: fixed;
+    z-index: 999999;
+    right: 23px;
+    bottom: 140px;
+}
+.kakao img {
+    width: 60px;
+    height: 60px;
+}
+.call {
+    position: fixed;
+    z-index: 999999;
+    right: 28px;
+    bottom: 80px;
+}
+.call img {
+    width: 50px;
+    height: 50px;
+}
 /* 맨 위로 버튼 */
 .scroll-to-top {
     position: fixed;
