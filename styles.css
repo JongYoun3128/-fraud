@@ -55,9 +55,7 @@ body {
 .banner-container {
     max-width: 100%;
 }
-.banner-container img {
-    width: 100%;
-}
+
 /* 헤더 */
 .header {
     background: var(--bg-white);
@@ -1225,6 +1223,9 @@ section:first-of-type {
     }
     .container {
         padding: 0 15px;
+    }
+    .banner-container img {
+        width: 100%;
     }
     .hero {
         margin: 1rem 0;
