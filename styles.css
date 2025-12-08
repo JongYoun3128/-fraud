@@ -44,6 +44,7 @@ body {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    background-color: #000000;
 }
 
 .container {
@@ -65,6 +66,9 @@ body {
     top: 0;
     z-index: 1000;
     transition: all 0.3s ease;
+    width: 100%;
+}
+.main-img img {
     width: 100%;
 }
 .main-banner {
@@ -401,7 +405,7 @@ section:first-of-type {
 
 /* 특별 프로그램 섹션 */
 .special-programs {
-    background: var(--bg-light);
+    background: black;
 }
 
 .programs-grid {
@@ -585,7 +589,7 @@ section:first-of-type {
 
 /* 이용방법 섹션 - 그룹 시스템 */
 .how-it-works {
-    background: var(--bg-light);
+    background: black;
 }
 
 .group-system-visual {
@@ -1366,7 +1370,7 @@ section:first-of-type {
 
 /* 상세 기능 섹션 */
 .features-detail {
-    background: var(--bg-white);
+    background: black;
 }
 
 .features-list {
@@ -1417,7 +1421,7 @@ section:first-of-type {
 
 /* 비교 표 섹션 */
 .comparison {
-    background: var(--bg-light);
+    background: black;
 }
 
 .comparison-table {
@@ -1495,7 +1499,7 @@ section:first-of-type {
 
 /* Before & After 섹션 */
 .before-after {
-    background: var(--bg-light);
+    background: black;
 }
 
 .ba-card {
@@ -1645,7 +1649,7 @@ section:first-of-type {
 
 /* 다른 사업 섹션 */
 .other-business {
-    background: var(--bg-white);
+    background: black;
     position: relative;
 }
 
@@ -1830,7 +1834,7 @@ section:first-of-type {
 
 /* FAQ 섹션 */
 .faq {
-    background: var(--bg-light);
+    background: black;
 }
 
 .faq-container {
