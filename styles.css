@@ -53,9 +53,12 @@ body {
     padding: 0 20px;
 }
 .banner-container {
-    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
 }
-
+.banner-container img {
+    width: 70%;
+}
 /* 헤더 */
 .header {
     background: var(--bg-white);
@@ -66,8 +69,12 @@ body {
     transition: all 0.3s ease;
     width: 100%;
 }
+.main-img {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
 .main-img img {
-    width: 100%;
+    width: 60%;
 }
 .main-banner {
     max-width: 100%;
@@ -87,11 +94,7 @@ body {
 .main-img {
     text-align: center;
 }
-.main-img img {
-    width: 40%;
-    text-align: center;
-    align-items: center;
-}
+
 .main-img21 {
     text-align: center;
 }
@@ -1214,6 +1217,10 @@ section:first-of-type {
 @media (max-width: 500px) {
     .main-img img {
         width: 100%;
+    }
+    .main-img {
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
     .main-img21 img {
         width: 70%;
