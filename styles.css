@@ -1072,7 +1072,9 @@ section:first-of-type {
     min-height: 450px;
     border: 2px solid transparent;
 }
-
+.zeroking img {
+    width: 100%;
+}
 /* 반응형 디자인 */
 @media (max-width: 768px) {
     .main-nav {
@@ -1206,7 +1208,7 @@ section:first-of-type {
     }
 
     .business-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     }
 
     .business-card {
@@ -1270,6 +1272,9 @@ section:first-of-type {
     }
     .comparison {
         font-size: 13px;
+    }
+    .business-grid {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     }
     .hero-subtitle {
         font-size: 1rem;
@@ -1684,7 +1689,7 @@ section:first-of-type {
 .business-grid {
     max-width: 1200px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     gap: 2rem;
     margin: 0 auto;
     margin-top: 3rem;
@@ -1722,6 +1727,10 @@ section:first-of-type {
     border-color: #0284c7;
 }
 
+.business-card.zeroking {
+    border-color: #c91e1e;
+}
+
 .business-card:hover {
     transform: translateY(-15px);
     box-shadow: var(--shadow-xl);
@@ -1740,6 +1749,11 @@ section:first-of-type {
 .business-card.rental:hover {
     border-color: #0284c7;
     box-shadow: 0 20px 40px rgba(2, 132, 199, 0.3);
+}
+
+.business-card.zeroking:hover {
+    border-color: #c91e1e;
+    box-shadow: 0 20px 40px rgba(124, 58, 237, 0.3);
 }
 
 .business-icon {
@@ -1800,6 +1814,11 @@ section:first-of-type {
     color: #0284c7;
 }
 
+.business-card.zeroking .business-features span:hover {
+    background: #c91e1e;
+    color: #ffffff;
+}
+
 .business-link {
     margin-top: auto;
     width: 100%;
@@ -1838,6 +1857,10 @@ section:first-of-type {
 
 .business-card.rental .btn-business {
     background: linear-gradient(135deg, #0284c7, #0369a1);
+}
+
+.business-card.zeroking .btn-business {
+    background: #c91e1e;
 }
 
 /* FAQ 섹션 */
