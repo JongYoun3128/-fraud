@@ -1080,7 +1080,9 @@ section:first-of-type {
     .main-nav {
         display: none;
     }
-
+    .main-img img {
+        width: 100%;
+    }
     .mobile-menu-btn {
         display: flex;
     }
