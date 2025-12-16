@@ -1076,6 +1076,11 @@ section:first-of-type {
     width: 100%;
 }
 /* 반응형 디자인 */
+@media (max-width: 1068px) {
+    .main-img img {
+        width: 100%;
+    }
+}
 @media (max-width: 768px) {
     .main-nav {
         display: none;
